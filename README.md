@@ -20,7 +20,7 @@ and also data on specific dates and opens a **bar chart popup** when clicking on
 ### 1 Clone Repo  
 ```bash
 https://github.com/ROHIT3496484/Bar_Data_on_Calender.git
-Bar_Data_on_Calender
+cd Bar_Data_on_Calender
 ```
 
 ### 2 Install Dependencies  

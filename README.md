@@ -1,12 +1,52 @@
-# React + Vite
+# 📅 React Big Calendar with Bar Graph  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates **React Big Calendar** integrated with **Redux Toolkit** and **Recharts**.  
+It shows data on specific dates and opens a **bar chart popup** when clicking on a highlighted date.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- 📆 Date, week, and month views using **React Big Calendar**  
+- 👤 Dummy data for 4 users  
+- ✨ Highlight dates with available data  
+- 📊 Popup modal with a **bar graph** on date selection  
+- ⚠️ Alert message if no data exists  
+- 🗂 Redux Toolkit for state management  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Setup  
+
+### 1️⃣ Clone Repo  
+```bash
+git clone https://github.com/your-username/calendar-bar-chart-app.git
+cd calendar-bar-chart-app
+```
+
+### 2️⃣ Install Dependencies  
+```bash
+# Install Vite (if not already installed globally)
+npm create vite@latest
+
+# Install project dependencies
+npm install react-redux @reduxjs/toolkit react-big-calendar moment recharts
+```
+
+### 3️⃣ Run Project  
+```bash
+npm run dev
+```
+
+---
+
+✅ Now your app will be running at:  
+👉 [http://localhost:5173](http://localhost:5173)  
+
+---
+
+## 🛠 Tech Stack  
+- ⚛️ React + Vite  
+- 🗂 Redux Toolkit  
+- 📆 React Big Calendar  
+- ⏰ Moment.js  
+- 📊 Recharts  

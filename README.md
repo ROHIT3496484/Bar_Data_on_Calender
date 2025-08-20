@@ -1,52 +1,53 @@
-# 📅 React Big Calendar with Bar Graph  
+# React Big Calendar with Bar Graph  
 
-This project demonstrates **React Big Calendar** integrated with **Redux Toolkit** and **Recharts**.  
-It shows data on specific dates and opens a **bar chart popup** when clicking on a highlighted date.  
-
----
-
-## 🚀 Features  
-- 📆 Date, week, and month views using **React Big Calendar**  
-- 👤 Dummy data for 4 users  
-- ✨ Highlight dates with available data  
-- 📊 Popup modal with a **bar graph** on date selection  
-- ⚠️ Alert message if no data exists  
-- 🗂 Redux Toolkit for state management  
+This project is showing **React Big Calendar**  with **Redux Toolkit** and **Recharts**.  
+and also data on specific dates and opens a **bar chart popup** when clicking on a highlighted date.  
 
 ---
 
-## 📂 Project Setup  
+## Features  
+-  Date, week, and month views using **React Big Calendar**  
+-  Dummy data for 4 users  
+-  Highlight dates with available data  
+-  Popup modal with a **bar graph** on date selection  
+-  Alert message if no data exists  
+-  Redux Toolkit for state management  
 
-### 1️⃣ Clone Repo  
+---
+
+##  Project Setup  
+
+### 1 Clone Repo  
 ```bash
 git clone https://github.com/your-username/calendar-bar-chart-app.git
 cd calendar-bar-chart-app
 ```
 
-### 2️⃣ Install Dependencies  
+### 2 Install Dependencies  
 ```bash
 # Install Vite (if not already installed globally)
 npm create vite@latest
 
 # Install project dependencies
-npm install react-redux @reduxjs/toolkit react-big-calendar moment recharts
+npm install react-redux 
+npm install @reduxjs/toolkit 
+npm install react-big-calendar moment recharts
 ```
 
-### 3️⃣ Run Project  
+### 3 Run Project  
 ```bash
 npm run dev
 ```
 
 ---
 
-✅ Now your app will be running at:  
-👉 [http://localhost:5173](http://localhost:5173)  
+ Now your app will be running at:  
+ [http://localhost:5173](http://localhost:5173)  
 
 ---
 
-## 🛠 Tech Stack  
-- ⚛️ React + Vite  
-- 🗂 Redux Toolkit  
-- 📆 React Big Calendar  
-- ⏰ Moment.js  
-- 📊 Recharts  
+##  Tech Stack  
+-  React + Vite  
+-  Redux Toolkit  
+-  React Big Calendar  
+-  Recharts  

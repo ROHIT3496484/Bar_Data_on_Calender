@@ -28,8 +28,7 @@ const Calendarview=()=> {
     const hasData = datesWithData.some(
       (d) => moment(d).isSame(moment(date), "day")
     );
-    if (hasData) {
-      return {
+    if (hasData) { return {
         style: {
           backgroundColor: "#e6f7ff",
           border: "2px solid #1890ff",

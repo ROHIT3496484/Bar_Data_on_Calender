@@ -9,7 +9,8 @@ const Barchartview=()=> {
     (state) => state.calendarData
   );
 
-  if (!showModal) return null;
+  if (!showModal) 
+    return null;
 
   const selectedData = data[selectedDate];
 

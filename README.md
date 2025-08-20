@@ -19,8 +19,8 @@ and also data on specific dates and opens a **bar chart popup** when clicking on
 
 ### 1 Clone Repo  
 ```bash
-git clone https://github.com/your-username/calendar-bar-chart-app.git
-cd calendar-bar-chart-app
+https://github.com/ROHIT3496484/Bar_Data_on_Calender.git
+cd Bar_Data_on_Calender
 ```
 
 ### 2 Install Dependencies  
